@@ -20,7 +20,7 @@ session_start();
 								        header("Location:home.php");
 }else  {  header("Location:index.php?id=error&v=Error: incorrect username/password");
        }
-}else  {  header("Location:index.php?id=error&v=Error: All field are mandatory");
+}else  {  header("Location:index.php?id=error&v=Error: All field are mandatory ....");
        }
 }else  {   header("Location:index.php?id=error & v=Error: please login to your account");
        }
